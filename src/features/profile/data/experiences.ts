@@ -57,7 +57,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "Career Scouts International",
     companyName: "Career Scouts International, Punjab ",
-    companyLogo: "http://www.careerscoutsinternational.com/wp-content/uploads/2024/10/homepage-csi-logo-updated-.png",
+    companyLogo: "https://i.postimg.cc/9F2TTMjG/homepage-csi-logo-updated.png",
     positions: [
       //       {
       //         id: "30d3a9fb-021d-452a-9d27-83655369b4b9",
@@ -100,10 +100,16 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Internship",
         icon: "idea",
-        description: `- Lead and manage the company's strategy.
-- Oversee technical teams and product development.
-- Manage relationships with customers and partners.`,
-        skills: ["Business Ownership", "Business Law", "Business Tax"],
+        description: `
+- Revamped the company’s digital presence through modern web design, front-end optimization, and creative content production.
+  - Redesigned the entire website in Figma, improving UI/UX consistency and boosting average session duration by 35%.
+  - Created a new brand logo and design system, strengthening brand identity and visual appeal across digital platforms.
+  - Implemented custom animations and interactive elements, increasing user engagement by 40%.
+  - Optimized loading speed by over 50% through code optimization, asset compression, and improved caching strategies.
+  - Enhanced mobile responsiveness and accessibility, ensuring seamless performance across all devices.
+  - Designed and edited promotional videos for Instagram and YouTube using Canva and Adobe Premiere Pro, contributing to a 25% increase in social media engagement.
+  - Collaborated with developers to deliver pixel-perfect, high-performance front-end implementations aligned with modern design principles.`,
+        skills: ["Design Lead", "Figma", "UI/UX", "Brand Identity Design", "performance", "Video Creation", "Designing Posters", "SEO Optimization", "Adobe Photoshop", "Canva", "Adobe Premiere Pro"],
         isExpanded: true,
       },
     ],
@@ -334,8 +340,8 @@ export const EXPERIENCES: Experience[] = [
         id: "70131ed8-36d9-4e54-8c78-eaed18240eca",
         title: "BLS International School",
         employmentPeriod: {
-          start: "2022",
-          end: "2019",
+          start: "2019",
+          end: "2022",
         },
         icon: "education",
         description: `- Student of the Specialized Computer Science Program.
