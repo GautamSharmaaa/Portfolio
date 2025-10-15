@@ -15,7 +15,7 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    docs: "https://chanhdai.com/components/theme-switcher-component",
+    docs: "",
   },
   {
     name: "flip-sentences",
@@ -44,7 +44,7 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    docs: "https://chanhdai.com/components/writing-effect-inspired-by-apple",
+    docs: "",
   },
   {
     name: "wheel-picker",
@@ -60,7 +60,7 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    docs: "https://chanhdai.com/components/react-wheel-picker",
+    docs: "",
   },
   {
     name: "work-experience",
@@ -95,7 +95,7 @@ export const components: Registry["items"] = [
       '@import "tw-animate-css"': {},
       "@plugin @tailwindcss/typography": {},
     },
-    docs: "https://chanhdai.com/components/work-experience-component",
+    docs: "",
   },
   {
     name: "shimmering-text",
@@ -125,6 +125,6 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    docs: "https://chanhdai.com/components/slide-to-unlock",
+    docs: "",
   },
 ];
