@@ -1,5 +1,5 @@
 import type { User } from "@/features/profile/types/user";
-// @ts-ignore
+// @ts-expect-error - user literal doesn't strictly match the generated User type
 export const USER: User = {
   firstName: "Gautam",
   lastName: "Sharma",
