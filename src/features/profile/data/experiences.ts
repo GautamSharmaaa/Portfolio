@@ -59,6 +59,35 @@ export const EXPERIENCES: Experience[] = [
     companyName: "Career Scouts International, Punjab ",
     companyLogo: "https://i.postimg.cc/9F2TTMjG/homepage-csi-logo-updated.png",
     positions: [
+      {
+        id: "991692c4-7d02-4666-8d31-933c4831768d",
+        title: "Web Developer and Design Intern",
+        employmentPeriod: {
+          start: "05.2024",
+          end: "08.2024"
+        },
+        employmentType: "Internship",
+        icon: "idea",
+        description: `
+- Revamped the company’s digital presence through modern web design, front-end optimization, and creative content production.
+  - Redesigned the entire website in Figma, improving UI/UX consistency and boosting average session duration by 35%.
+  - Created a new brand logo and design system, strengthening brand identity and visual appeal across digital platforms.
+  - Implemented custom animations and interactive elements, increasing user engagement by 40%.
+  - Optimized loading speed by over 50% through code optimization, asset compression, and improved caching strategies.
+  - Enhanced mobile responsiveness and accessibility, ensuring seamless performance across all devices.
+  - Designed and edited promotional videos for Instagram and YouTube using Canva and Adobe Premiere Pro, contributing to a 25% increase in social media engagement.
+  - Collaborated with developers to deliver pixel-perfect, high-performance front-end implementations aligned with modern design principles.`,
+        skills: ["Design Lead", "Figma", "UI/UX", "Brand Identity Design", "performance", "Video Creation", "Designing Posters", "SEO Optimization", "Adobe Photoshop", "Canva", "Adobe Premiere Pro"],
+        isExpanded: true,
+      },
+    ],
+    isCurrentEmployer: false,
+  },
+  {
+    id: "My Science School",
+    companyName: "My Science School, Delhi ",
+    companyLogo: "https://imgs.search.brave.com/5zGBVAV2NPNd8LUrDsGyOV7BDu10c1D7yhDcdQ1Lsts/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bXlzY2llbmNlLm9y/Zy9pbWFnZS9teXNj/aWVuY2Uuc3Zn",
+    positions: [
       //       {
       //         id: "30d3a9fb-021d-452a-9d27-83655369b4b9",
       //         title: "Design Engineer",
@@ -93,28 +122,25 @@ export const EXPERIENCES: Experience[] = [
       //       },
       {
         id: "991692c4-7d02-4666-8d31-933c4831768d",
-        title: "Web Developer and Design Intern",
+        title: "UI/UX Design Intern",
         employmentPeriod: {
-          start: "05.2024",
-          end: "08.2024"
+          start: "05.2023",
+          end: "08.2023"
         },
         employmentType: "Internship",
         icon: "idea",
         description: `
-- Revamped the company’s digital presence through modern web design, front-end optimization, and creative content production.
-  - Redesigned the entire website in Figma, improving UI/UX consistency and boosting average session duration by 35%.
-  - Created a new brand logo and design system, strengthening brand identity and visual appeal across digital platforms.
-  - Implemented custom animations and interactive elements, increasing user engagement by 40%.
-  - Optimized loading speed by over 50% through code optimization, asset compression, and improved caching strategies.
-  - Enhanced mobile responsiveness and accessibility, ensuring seamless performance across all devices.
-  - Designed and edited promotional videos for Instagram and YouTube using Canva and Adobe Premiere Pro, contributing to a 25% increase in social media engagement.
-  - Collaborated with developers to deliver pixel-perfect, high-performance front-end implementations aligned with modern design principles.`,
-        skills: ["Design Lead", "Figma", "UI/UX", "Brand Identity Design", "performance", "Video Creation", "Designing Posters", "SEO Optimization", "Adobe Photoshop", "Canva", "Adobe Premiere Pro"],
-        isExpanded: true,
+- Developed 10+ responsive web applications and brand graphics with HTML5, CSS3, JS, Bootstrap; created high-fidelity Figma wireframes and conducted usability tests with 50+ users, improving engagement by 45%.
+- Enhanced user experience through analytical problem-solving redesigning search functionality, reducing average search time by 40% and improving usability scores by 35%.
+- Produced 50+ graphics using Adobe Illustrator establishing consistent brand identity and increasing social media engagement by 45%.`,
+        skills: ["Design Lead", "Figma", "UI/UX", "Brand Identity Design", "Adobe Illustrator", "Video Creation", "Designing Posters", "SEO Optimization", "Adobe Photoshop", "Canva", "Adobe Premiere Pro"],
+        isExpanded: false,
       },
     ],
     isCurrentEmployer: false,
   },
+
+
   //   {
   //     id: "quaric",
   //     companyName: "Quaric Co., Ltd.",
