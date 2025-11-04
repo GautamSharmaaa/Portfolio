@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
     id: "CollabSketch — Real-Time Collaborative Whiteboard",
     title: "CollabSketch — Real-Time Collaborative Whiteboard",
     period: {
-      start: "05.2025",
+      start: "03.2025",
     },
     link: "https://collabsketch.app",
     skills: [
@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
     id: "ResuMind — AI-Powered Resume Analyzer",
     title: "ResuMind — AI-Powered Resume Analyzer",
     period: {
-      start: "03.2025",
+      start: "03.2024",
     },
     link: "https://resumind.app",
     skills: [
@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
     id: "LMSify — SaaS Learning Management System",
     title: "LMSify — SaaS Learning Management System",
     period: {
-      start: "07.2025",
+      start: "07.2023",
     },
     link: "https://lmsify.app",
     skills: [
