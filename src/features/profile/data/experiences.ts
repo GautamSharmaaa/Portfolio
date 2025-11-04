@@ -85,7 +85,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     id: "My Science School",
-    companyName: "My Science School, Delhi ",
+    companyName: "My Science School, Delhi",
     companyLogo: "https://imgs.search.brave.com/5zGBVAV2NPNd8LUrDsGyOV7BDu10c1D7yhDcdQ1Lsts/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bXlzY2llbmNlLm9y/Zy9pbWFnZS9teXNj/aWVuY2Uuc3Zn",
     positions: [
       //       {
