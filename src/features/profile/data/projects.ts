@@ -2,40 +2,96 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "react-wheel-picker",
-    title: "React Wheel Picker",
+    id: "CollabSketch — Real-Time Collaborative Whiteboard",
+    title: "CollabSketch — Real-Time Collaborative Whiteboard",
     period: {
       start: "05.2025",
     },
-    link: "https://react-wheel-picker.chanhdai.com",
+    link: "https://collabsketch.app",
     skills: [
-      "Open Source",
       "React",
       "TypeScript",
-      "Monorepo",
-      "Turborepo",
-      "pnpm-workspace",
-      "Package Publishing",
-      "NPM Registry",
+      "WebSockets",
+      "Microservices",
+      "Firebase",
+      "GraphQL",
+      "Prisma",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "CI/CD",
+      "Jenkins",
       "GitHub Actions",
     ],
-    description: `iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.
-- 📱 Natural touch scrolling with smooth inertia effect
-- 🖱️ Mouse drag and scroll support for desktop
-- 🔄 Infinite loop scrolling
-- 🎨 Unstyled components for complete style customization
-- ⚡️ Easy installation via shadcn CLI
-
-This project is proudly supported by:
-
-<a href="https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker">
-<img src="https://assets.chanhdai.com/images/project-logos/vercel-oss-program-badge-white.svg?v=1" alt="Vercel OSS Program" class="hidden [html.dark_&]:block">
-<img src="https://assets.chanhdai.com/images/project-logos/vercel-oss-program-badge-black.svg?v=1" alt="Vercel OSS Program" class="hidden [html.light_&]:block">
-</a>
+    description: `🚀 A cloud-based platform that lets teams draw, brainstorm, and collaborate live on a shared digital canvas with seamless real-time sync.
+- ⚡ Built scalable microservices using WebSockets & Firebase Auth for <200 ms latency and 99.9% uptime.
+- 🎨 Developed custom Fabric.js whiteboard with GraphQL & PostgreSQL, boosting team efficiency by 40%.
+- ☁️ Deployed Dockerized backend on AWS with CI/CD pipelines ensuring 3× traffic scalability.
 `,
-    logo: "https://assets.chanhdai.com/images/project-logos/react-wheel-picker.svg",
+    logo: "https://cdn-icons-png.flaticon.com/512/7485/7485739.png",
     isExpanded: true,
   },
+
+  {
+    id: "ResuMind — AI-Powered Resume Analyzer",
+    title: "ResuMind — AI-Powered Resume Analyzer",
+    period: {
+      start: "03.2025",
+    },
+    link: "https://resumind.app",
+    skills: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+      "Zustand",
+      "Vite",
+      "Puter.js",
+      "OpenAI API",
+      "CI/CD",
+      "GitHub Actions",
+    ],
+    description: `🧠 AI-powered web app that analyzes resumes, provides instant feedback, and scores ATS compatibility.
+- 🤖 Leveraged OpenAI GPT models serving 1,800+ users with 4.7★ rating and 92% satisfaction.
+- ⚙️ Built modular React codebase with Zustand & TypeScript improving dev velocity by 40%.
+- 🎯 Integrated resume parsing & gamified UI achieving 95% Lighthouse accessibility score; deployed via GitHub Actions.
+`,
+    logo: "https://cdn-icons-png.flaticon.com/512/1250/1250303.png",
+    isExpanded: false,
+  },
+
+  {
+    id: "LMSify — SaaS Learning Management System",
+    title: "LMSify — SaaS Learning Management System",
+    period: {
+      start: "07.2025",
+    },
+    link: "https://lmsify.app",
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Supabase",
+      "Clerk",
+      "Stripe API",
+      "Firebase",
+      "GraphQL",
+      "Docker",
+      "AWS",
+      "Sentry",
+      "CI/CD",
+      "Agile",
+    ],
+    description: `🎓 Full-stack SaaS LMS enabling creators to build and sell online courses with real-time sync & payments.
+- 💳 Integrated Clerk auth & Stripe payments serving 5,000+ monthly users with 99.95% uptime.
+- ⚡ Built Next.js app with Supabase & Firebase handling 10,000+ submissions/month via GraphQL.
+- 🛠️ Enhanced observability with Sentry & AWS; used Docker + CI/CD to cut MTTR by 35%.
+`,
+    logo: "https://cdn-icons-png.flaticon.com/512/3029/3029845.png",
+    isExpanded: false,
+  },
+
   //   {
   //     id: "chanhdaidotcom",
   //     title: "chanhdai.com",
